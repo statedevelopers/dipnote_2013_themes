@@ -1,0 +1,10 @@
+/**
+ * Style alterations for openlayers mapping applications.
+ *
+ */
+.openlayers-popup {
+  color: #EEEEEE; 
+}
+.openlayers-popup a {
+  color: white;
+}

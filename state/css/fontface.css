@@ -1,0 +1,78 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Mark Simonson Studio
+ * License URL: http://www.fontspring.com/fflicense/mark-simonson-studio
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'ProximaNovaRgRegular';
+    src: url('fontface/proximanova_regular_macroman/ProximaNova-Reg-webfont.eot');
+    src: url('fontface/proximanova_regular_macroman/ProximaNova-Reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontface/proximanova_regular_macroman/ProximaNova-Reg-webfont.woff') format('woff'),
+         url('fontface/proximanova_regular_macroman/ProximaNova-Reg-webfont.ttf') format('truetype'),
+         url('fontface/proximanova_regular_macroman/ProximaNova-Reg-webfont.svg#ProximaNovaRgRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaRgBold';
+    src: url('fontface/proximanova_bold_macroman/ProximaNova-Bold-webfont.eot');
+    src: url('fontface/proximanova_bold_macroman/ProximaNova-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontface/proximanova_bold_macroman/ProximaNova-Bold-webfont.woff') format('woff'),
+         url('fontface/proximanova_bold_macroman/ProximaNova-Bold-webfont.ttf') format('truetype'),
+         url('fontface/proximanova_bold_macroman/ProximaNova-Bold-webfont.svg#ProximaNovaRgBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaLtSemibold';
+    src: url('fontface/proximanova_semibold_macroman/ProximaNova-Sbold-webfont.eot');
+    src: url('fontface/proximanova_semibold_macroman/ProximaNova-Sbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontface/proximanova_semibold_macroman/ProximaNova-Sbold-webfont.woff') format('woff'),
+         url('fontface/proximanova_semibold_macroman/ProximaNova-Sbold-webfont.ttf') format('truetype'),
+         url('fontface/proximanova_semibold_macroman/ProximaNova-Sbold-webfont.svg#ProximaNovaLtSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaThThin';
+    src: url('fontface/proximanova_thin_macroman/roximaNova-Thin-webfont.eot');
+    src: url('fontface/proximanova_thin_macroman/ProximaNova-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontface/proximanova_thin_macroman/ProximaNova-Thin-webfont.woff') format('woff'),
+         url('fontface/proximanova_thin_macroman/ProximaNova-Thin-webfont.ttf') format('truetype'),
+         url('fontface/proximanova_thin_macroman/ProximaNova-Thin-webfont.svg#ProximaNovaThThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaLtLight';
+    src: url('fontface/proximanova_light_macroman/ProximaNova-Light-webfont.eot');
+    src: url('fontface/proximanova_light_macroman/ProximaNova-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontface/proximanova_light_macroman/ProximaNova-Light-webfont.woff') format('woff'),
+         url('fontface/proximanova_light_macroman/ProximaNova-Light-webfont.ttf') format('truetype'),
+         url('fontface/proximanova_light_macroman/ProximaNova-Light-webfont.svg#ProximaNovaLtLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

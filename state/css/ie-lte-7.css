@@ -1,0 +1,126 @@
+.item-wrapper .avatar, .item-wrapper .text-wrapper {
+  display: block;
+}
+
+.item-wrapper .avatar {
+  float: left;
+  width: 58px;
+}
+
+.item-wrapper .text-wrapper {
+  float: right;
+  width: 168px;
+}
+
+.page-social-feeds .item-wrapper .text-wrapper {
+  float: right;
+  width: 188px;
+}
+
+.node-teaser .comment-count {
+  display: inline;
+}
+
+.node-teaser .counts {
+  display: inline;
+  float: right;
+  width: 100px;
+}
+
+.node-teaser .node-links ul,
+.node-teaser .node-links ul li {
+  display: inline;
+}
+
+.node-teaser .counts .node-links,
+.node-teaser .counts .comment-count,
+.homepage-rotator .sharethis,
+.homepage-rotator .comment-count {
+  display: inline; 
+}
+
+.sharethis-abbreviated .st_sharethis_hcount .stArrow {
+  background: transparent url('../images/teaser-icons.png') no-repeat left 4px !important;
+}
+
+.node-teaser .comment-count {
+background: transparent url('../images/teaser-icons.png') no-repeat left -22px;
+}
+
+.block-search #edit-search-block-form--2,
+.block-search #edit-custom-search-blocks-form-1--2 {
+  height: 18px;
+  padding-top: 0;
+  width: 190px;
+}
+
+.region-menu .search-form {
+  margin-top: -10px;
+}
+
+.region-footer-first {
+  height: 75px;
+  overflow: hidden;
+}
+
+.zone-footer .region-footer-first .search-form {
+  left: -225px;
+}
+
+.zone-footer .region-footer-first .form-actions {
+  margin-left: -15px;
+}
+
+.zone-footer .block-search-form .form-actions input {
+  padding-top: .2em;
+}
+
+.basic-pager ul.pager {
+  float: right;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+.basic-pager ul.pager li.pager-current {
+  padding-top: 4px;
+}
+
+body .zone-pre-content .views-exposed-form .views-exposed-widget label,
+body .zone-pre-content .views-exposed-form .views-exposed-widget .views-widget {
+  display: inline;
+}
+
+body .zone-pre-content .views-exposed-form .views-exposed-widget label {
+  margin-right: .25em;
+}
+
+.block-views-regions-list-block-2 {
+  width: 100%;
+}
+
+.region-list-grid .views-row .field-content a {
+  display: block;
+  padding-top: 1em;
+  height: 65px;
+  width: 129px;
+}
+
+.content .node-full .credit-share {
+  min-height: 25px;
+  position: relative;
+}
+
+.content .node-full  .credit {
+  display: block;
+  padding-top: .25em;
+}
+
+.content .node-full nav.links {
+  display: inline;
+  height: 10px;
+}
+
+.content .node-full nav.links ul {
+  position: absolute;
+  right: -30px;
+  top: 15px;

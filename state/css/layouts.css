@@ -1,0 +1,296 @@
+/* This file will hold styles for the layout of mobile, tablet, and desktop. */
+
+/**
+ * Mobile
+ */
+
+body .region-content,
+body .region-preface-first,
+body .region-footer-first,
+.not-front .region-content-top {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.node-type-article article.node .content,
+.node-type-article .credit-share,
+.node-type-article .region-content .collapsible-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.node-teaser h2.node-title,
+.node-teaser .content,
+.node-teaser .counts {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.region-content .view-header {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/**
+ * Tablet & desktop
+ */
+
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape) {
+  body .not-front .region-content,
+  body .not-front .region-preface-first,
+  body .region-footer-first,
+  .not-front .region-content-top {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .node-type-article article.node .content,
+  .node-type-article .credit-share,
+  .node-type-article .region-content .collapsible-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .node-teaser h2.node-title,
+  .node-teaser .content {
+    padding: 0;
+  }
+
+  .region-content .view-header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .zone-wrapper,
+  .zone-wrapper .zone,
+  .zone-wrapper .zone .region {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .zone-wrapper,
+  .front .zone-pre-content {
+    width: 720px;
+  }
+
+  .zone-wrapper .zone, 
+  .zone-pre-content {
+    width: 690px;
+  }
+
+  .zone-wrapper .zone .region {
+    width: 690px;
+  }
+
+  .front .latest-stories .row {
+    width: 690px;
+  }
+
+  #zone-branding-wrapper .zone-branding .region-branding {
+    width: 370px;
+  }
+
+  .zone-branding-wrapper .zone-branding .region-menu {
+    float: right;
+    width: 310px;
+  } 
+
+  .one-sidebar .zone-content .region-content {
+    width: 435px;
+  }
+
+  .one-sidebar .zone-content .region-sidebar-second {
+    float: right;
+    margin-top: 1em;
+    width: 230px;
+  }  
+
+  .zone-footer {
+    min-height: 75px;
+  }
+
+  .section-footer .zone-footer .region-footer-first {
+    width: 435px;
+  }
+
+  .section-footer .zone-footer .region-footer-second {
+    float: right;
+    width: 229px;
+  }
+
+  #messages {
+    margin-left: 0;
+    margin-right: 0;
+    width: 690px;
+  }
+
+  .zone-preface,
+  .zone-postscript,
+  .zone-content {
+    padding-bottom: .8em;
+    padding-top: .8em;
+  }
+
+  #zone-footer .region-footer-second-inner a {
+    text-transform: uppercase;
+    font-size: .9em;
+    padding-top: .5em;
+    color: black;
+  }
+  
+  /**
+   * Tablet & desktop grid view theming
+   */
+
+  .region-content .views-view-grid .views-row {
+    -webkit-box-shadow: 0px 0px 8px 1px #dbdcdd;
+    box-shadow: 0px 0px 8px 1px #dbdcdd;
+  }
+
+  .region-content .views-view-grid {
+    margin-bottom: 1em;
+  }
+
+  .views-view-grid .views-row {
+    background-color: #fff;  
+    border: solid 1px #c6c7c8;
+    float: left;
+    height: 320px;
+    padding: .8em;
+    width: 200px;
+  }
+
+  .zone-postscript .views-view-grid .views-row {
+    border: none;
+  }
+
+  .views-view-grid .row {
+    padding-bottom: .4em;
+    padding-top: .4em;
+  }
+
+  .views-view-grid .col-1,
+  .views-view-grid .col-2 {
+    margin-right: .8em;
+  }
+
+  .views-view-grid .col-3 {
+    margin-right: 0;
+  }
+
+  .front .views-view-grid .col-1,
+  .front .views-view-grid .col-2 {
+    margin-right: 1em;
+  }
+
+}
+
+/**
+* Desktop only
+*/
+
+@media all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape) {
+  .zone-wrapper {
+    width: 960px;
+  }
+
+  .zone-wrapper .zone {
+    /*width: 900px;*/
+    width: 100%
+  }
+
+  .page-taxonomy-term .zone-content-wrapper .zone,
+  .landing-page .zone-content-wrapper .zone,
+  .page-user .zone-content-wrapper .zone, 
+  .node-type-contributor .zone-content-wrapper .zone {
+    width: 930px;
+  }
+
+  .zone-wrapper .zone .region {
+    /*width: 900px;*/
+    width: 100%
+  }
+
+  .page-taxonomy-term .zone-content-wrapper .zone .region,
+  .landing-page .zone-content-wrapper .zone .region,
+  .page-user .zone-content-wrapper .zone .region,
+  .node-type-contributor .zone-content-wrapper .zone .region {
+
+    width: 930px;
+  }
+
+  .zone-branding-wrapper .zone-branding .region-branding {
+    width: 360px;
+  }
+
+  #zone-branding-wrapper .zone-branding .region-menu {
+    width: 350px;
+  }
+
+  .one-sidebar .zone-content .region-content {
+    width: 570px;
+  }
+
+  .one-sidebar .zone-content .region-sidebar-second {
+    float: right;
+    width: 300px;
+  }
+
+  .front .zone-content-wrapper .zone,
+  .front .zone-content-wrapper .region-content {
+    /*width: 900px;*/
+    width: 960px;
+  } 
+
+  .front .latest-stories .row {
+    width: 900px;
+  }
+
+  .front .latest-stories .views-row {
+    width: 265px;
+  }
+
+  #messages {
+    width: 900px;
+  }
+
+  .section-footer .zone-footer .region-footer-first {
+    width: 570px;
+  }
+
+  .section-footer .zone-footer .region-footer-second {
+    width: 229px;
+  }
+
+  /**
+   * Desktop only grid view theming
+   */
+
+  .views-view-grid .views-row {
+    height: 340px;
+    padding: 1em;
+    width: 265px;
+  }
+
+  .views-view-grid .row {
+    padding-bottom: .5em;
+    padding-top: .5em;
+  }
+
+  .views-view-grid .col-1,
+  .views-view-grid .col-2 {
+    margin-right: 1em;
+  }
+
+  .views-view-grid .col-3 {
+    margin-right: 0;
+  }
+
+  .page-taxonomy-term .zone-content .views-view-grid .views-row,
+  .landing-page .zone-content .views-view-grid .views-row,
+  .page-user .zone-content .views-view-grid .views-row,
+  .node-type-contributor .zone-content .views-view-grid .views-row {
+    width: 271px;
+  }
+}
