@@ -1362,3 +1362,12 @@ h1.title,
 .flickr .content a:nth-child(2n+2) {
   margin-right: 0;
 }
+
+/**
+ * Interns page
+ */
+ 
+.view-interns .view-content .views-row {
+  margin-right: .5em;
+  height: 375px;
+}

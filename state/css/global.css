@@ -1990,3 +1990,42 @@ div.profile div.field-display-name {
 .block-contributor-bio-block-1 p {
   display: inline;
 }
+
+/**
+ * Interns page
+ */
+
+
+.view-interns .view-content .views-row .field-alma-mater {
+  margin: .1em 0 .2em 0;
+}
+
+.view-interns .view-content .views-row .statistics_counter {
+  display: none;
+}
+
+.field-portrait {
+  margin-bottom: .3em;
+}
+
+@media all and (max-width: 740px) {
+  
+.view-interns .view-content .views-row .node-links {
+  float: right;
+}
+
+}
+
+/**
+ * Individual Intern page
+ */
+
+@media all and (max-width: 740px) {
+
+.node-internship .field-portrait img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+}

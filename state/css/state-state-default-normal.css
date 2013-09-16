@@ -464,3 +464,12 @@ body.content-top .zone-content,
 .not-front.no-sidebars.node-type-page .region-content-inner {
   width: 80%;
 }
+
+/**
+ * Interns page
+ */
+ 
+.view-interns .view-content .views-row {
+  margin-right: .5em;
+  height: 435px;
+}
