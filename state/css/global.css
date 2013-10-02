@@ -1232,7 +1232,6 @@ h1.title {
  * Grid view theming
  */
 
-.node-teaser .photo img,
 .views-view-grid img {
   height: auto;
   max-width: 100%;
@@ -1744,6 +1743,10 @@ body.content-top .zone-content,
   background: transparent url('../images/socials-sprite.png') no-repeat left 2px;
 }
 
+.instagram .block-title span {
+  background: transparent url('../images/instagram.png') no-repeat left 2px;
+}
+
 .socials {
   background-color: #ffffff;
 }
@@ -2010,9 +2013,9 @@ div.profile div.field-display-name {
 
 @media all and (max-width: 740px) {
   
-.view-interns .view-content .views-row .node-links {
-  float: right;
-}
+  .view-interns .view-content .views-row .node-links {
+    float: right;
+  }
 
 }
 
@@ -2022,10 +2025,11 @@ div.profile div.field-display-name {
 
 @media all and (max-width: 740px) {
 
-.node-internship .field-portrait img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
+  .node-internship .field-portrait img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
 
 }
+
